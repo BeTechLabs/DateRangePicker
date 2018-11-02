@@ -336,7 +336,7 @@ public class CalendarPickerView extends RecyclerView {
   }
 
   private void scrollToSelectedMonth(final int selectedIndex) {
-    scrollToSelectedMonth(selectedIndex, false);
+    scrollToSelectedMonth(selectedIndex, true);
   }
 
   private void scrollToSelectedMonth(final int selectedIndex, final boolean smoothScroll) {
@@ -397,6 +397,12 @@ public class CalendarPickerView extends RecyclerView {
       return true;
     }
     return false;
+  }
+
+  public Date getCurrentlyShowingMonth() {
+    int pos = ((LinearLayoutManager) this.getLayoutManager()).findFirstVisibleItemPosition();
+    MonthDescriptor md = months.get(pos);
+    return md.getDate();
   }
 
   /**

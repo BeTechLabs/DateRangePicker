@@ -35,28 +35,8 @@ public class SampleActivity extends AppCompatActivity {
 
         calendar = (CalendarPickerView) findViewById(R.id.calendar_view);
         button = (Button) findViewById(R.id.get_selected_dates);
-        ArrayList<Integer> list = new ArrayList<>();
-        list.add(1);
-
-        calendar.deactivateDates(list);
-        ArrayList<Date> arrayList = new ArrayList<>();
-        try {
-            SimpleDateFormat dateformat = new SimpleDateFormat("dd-MM-yyyy");
-            String strdate = "22-2-2018";
-            String strdate2 = "26-2-2018";
-            Date newdate = dateformat.parse(strdate);
-            Date newdate2 = dateformat.parse(strdate2);
-            arrayList.add(newdate);
-            arrayList.add(newdate2);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
         calendar.init(lastYear.getTime(), nextYear.getTime(), new SimpleDateFormat("MMMM, YYYY", Locale.getDefault())) //
-                .inMode(CalendarPickerView.SelectionMode.RANGE) //
-                .withSelectedDate(new Date())
-                .withDeactivateDates(list)
-                .withHighlightedDates(arrayList);
-
+                .inMode(CalendarPickerView.SelectionMode.RANGE);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,7 +44,5 @@ public class SampleActivity extends AppCompatActivity {
                 Log.d("list",  calendar.getSelectedDates().toString());
             }
         });
-
-
     }
 }

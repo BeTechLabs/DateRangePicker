@@ -3,6 +3,7 @@
   <item android:color="@android:color/black" android:state_selected="true" />
   <item android:color="@android:color/transparent" app:tsquare_state_current_month="false"/>
   <item android:color="@android:color/darker_gray" app:tsquare_state_deactivated="true"/>
+  <item android:color="@android:color/darker_gray" app:tsquare_state_selectable="false"/>
   <!--<item android:color="@android:color/black" app:tsquare_state_range_middle="true" />-->
   <!--<item android:color="@color/dateTimeRangePickerStateNonSelectable" app:tsquare_state_current_month="false" />-->
   <!--<item android:color="@color/dateTimeRangePickerStateToday" app:tsquare_state_today="true" app:tsquare_state_highlighted = "false" app:tsquare_state_unavailable = "false"/>-->
