@@ -8,6 +8,9 @@ import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.os.Build;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.PagerSnapHelper;
+import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,7 +41,7 @@ import static java.util.Calendar.SECOND;
 import static java.util.Calendar.YEAR;
 
 
-public class CalendarPickerView extends ListView {
+public class CalendarPickerView extends RecyclerView {
   public enum SelectionMode {
     /**
      * Only one date will be selectable.  If there is already a selected date and you select a new
@@ -129,13 +132,17 @@ public class CalendarPickerView extends ListView {
     a.recycle();
 
     adapter = new MonthAdapter();
-    setDivider(null);
-    setDividerHeight(0);
+    // setDivider(null);
+    // setDividerHeight(0);
     setBackgroundColor(bg);
-    setCacheColorHint(bg);
+    // setCacheColorHint(bg);
     timeZone = TimeZone.getDefault();
     locale = Locale.getDefault();
-
+    LinearLayoutManager linearLayoutManager =
+            new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
+    setLayoutManager(linearLayoutManager);
+    PagerSnapHelper pagerSnapHelper = new PagerSnapHelper();
+    pagerSnapHelper.attachToRecyclerView(this);
     if (isInEditMode()) {
       Calendar nextYear = Calendar.getInstance(timeZone, locale);
       nextYear.add(Calendar.YEAR, 1);
@@ -340,7 +347,7 @@ public class CalendarPickerView extends ListView {
         if (smoothScroll) {
           smoothScrollToPosition(selectedIndex);
         } else {
-          setSelection(selectedIndex);
+          // setSelection(selectedIndex);
         }
       }
     });
@@ -370,6 +377,8 @@ public class CalendarPickerView extends ListView {
       scrollToSelectedMonth(todayIndex);
     }
   }
+
+
 
   public boolean scrollToDate(Date date) {
     Integer selectedIndex = null;
@@ -757,49 +766,50 @@ public class CalendarPickerView extends ListView {
     return null;
   }
 
-  private class MonthAdapter extends BaseAdapter {
+  private class MonthAdapter extends RecyclerView.Adapter<MonthAdapter.ViewHolder> {
     private final LayoutInflater inflater;
+    private ViewGroup parent = null;
 
     private MonthAdapter() {
       inflater = LayoutInflater.from(getContext());
     }
 
-    @Override public boolean isEnabled(int position) {
-      // Disable selectability: each cell will handle that itself.
-      return false;
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+      MonthView monthView =
+                MonthView.create(parent, inflater, weekdayNameFormat, listener, today, dividerColor,
+                        dayBackgroundResId, dayTextColorResId, titleTextColor, displayHeader,
+                        headerTextColor, decorators, locale, dayViewAdapter);
+      monthView.setTag(R.id.day_view_adapter_class, dayViewAdapter.getClass());
+      this.parent = parent;
+      return new ViewHolder(monthView);
     }
 
-    @Override public int getCount() {
-      return months.size();
-    }
-
-    @Override public Object getItem(int position) {
-      return months.get(position);
+    @Override
+    public void onBindViewHolder(ViewHolder holder, int position) {
+      MonthView monthView = (MonthView) holder.itemView;
+      monthView.setDecorators(decorators);
+      if (monthsReverseOrder) {
+        position = months.size() - position - 1;
+      }
+      monthView.init(months.get(position), cells.getValueAtIndex(position), displayOnly,
+              titleTypeface, dateTypeface, deactivatedDates);
     }
 
     @Override public long getItemId(int position) {
       return position;
     }
 
-    @Override public View getView(int position, View convertView, ViewGroup parent) {
-      //Logr.d("Adaper Position ==>" + position);
-      MonthView monthView = (MonthView) convertView;
-      if (monthView == null //
-          || !monthView.getTag(R.id.day_view_adapter_class).equals(dayViewAdapter.getClass())) {
-        monthView =
-            MonthView.create(parent, inflater, weekdayNameFormat, listener, today, dividerColor,
-                dayBackgroundResId, dayTextColorResId, titleTextColor, displayHeader,
-                headerTextColor, decorators, locale, dayViewAdapter);
-        monthView.setTag(R.id.day_view_adapter_class, dayViewAdapter.getClass());
-      } else {
-        monthView.setDecorators(decorators);
+    @Override
+    public int getItemCount() {
+      return months.size();
+    }
+
+    class ViewHolder extends RecyclerView.ViewHolder {
+
+      public ViewHolder(View itemView) {
+        super(itemView);
       }
-      if (monthsReverseOrder) {
-        position = months.size() - position - 1;
-      }
-      monthView.init(months.get(position), cells.getValueAtIndex(position), displayOnly,
-          titleTypeface, dateTypeface, deactivatedDates);
-      return monthView;
     }
   }
 

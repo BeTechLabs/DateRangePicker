@@ -77,7 +77,7 @@ public class MonthView extends LinearLayout {
   }
 
   private static boolean isRtl(Locale locale) {
-    // TODO convert the build to gradle and use getLayoutDirection instead of this (on 17+)?
+    // TODO convert the buildateTimeRangePickerRangeTextColorInactived to gradle and use getLayoutDirection instead of this (on 17+)?
     final int directionality = Character.getDirectionality(locale.getDisplayName(locale).charAt(0));
     return directionality == Character.DIRECTIONALITY_RIGHT_TO_LEFT
         || directionality == Character.DIRECTIONALITY_RIGHT_TO_LEFT_ARABIC;
