@@ -347,7 +347,7 @@ public class CalendarPickerView extends RecyclerView {
         if (smoothScroll) {
           smoothScrollToPosition(selectedIndex);
         } else {
-          // setSelection(selectedIndex);
+          scrollToPosition(selectedIndex);
         }
       }
     });
@@ -380,7 +380,7 @@ public class CalendarPickerView extends RecyclerView {
 
 
 
-  public boolean scrollToDate(Date date) {
+  public boolean scrollToDate(Date date, Boolean smoothScroll) {
     Integer selectedIndex = null;
 
     Calendar cal = Calendar.getInstance(timeZone, locale);
@@ -393,10 +393,14 @@ public class CalendarPickerView extends RecyclerView {
       }
     }
     if (selectedIndex != null) {
-      scrollToSelectedMonth(selectedIndex);
+      scrollToSelectedMonth(selectedIndex, smoothScroll);
       return true;
     }
     return false;
+  }
+
+  public boolean scrollToDate(Date date) {
+    return scrollToDate(date, true);
   }
 
   public Date getCurrentlyShowingMonth() {
