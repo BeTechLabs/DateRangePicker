@@ -16,7 +16,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54481d79-3416-47e6-a9f3-bdc451c11845" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/day_text_color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/day_text_color.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,23 +50,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="calendar_text_selector.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/calendar_text_selector.xml">
+      <file leaf-file-name="CalendarCellView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarCellView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="289">
+              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="calendar_bg_selector.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/calendar_bg_selector.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="144">
+              <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2">
@@ -63,11 +71,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalendarPickerView.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalendarPickerView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="402" column="92" selection-start-line="402" selection-start-column="92" selection-end-line="402" selection-end-column="92" />
+            <state relative-caret-position="397">
+              <caret line="637" column="88" selection-start-line="637" selection-start-column="88" selection-end-line="637" selection-end-column="88" />
+              <folding>
+                <element signature="e#23138#23139#0" expanded="true" />
+                <element signature="e#23191#23192#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,11 +100,26 @@
       <file leaf-file-name="MonthView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/MonthView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-64">
-              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+            <state relative-caret-position="457">
+              <caret line="153" column="47" selection-start-line="153" selection-start-column="47" selection-end-line="153" selection-end-column="47" />
               <folding>
                 <element signature="e#7138#7139#0" expanded="true" />
                 <element signature="e#7176#7177#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonthCellDescriptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/MonthCellDescriptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+              <folding>
+                <element signature="e#1652#1653#0" expanded="true" />
+                <element signature="e#1679#1680#0" expanded="true" />
+                <element signature="e#1733#1734#0" expanded="true" />
+                <element signature="e#1771#1772#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,7 +143,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day_text_color.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day_text_color.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/day_text_color.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
@@ -135,21 +162,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="state_range_first.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/state_range_first.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>_bg_sel</find>
       <find>3</find>
+      <find>setCur</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -3558,9 +3577,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_sample.xml" />
         <option value="$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/state_range_first.xml" />
         <option value="$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/state_deactivated.xml" />
-        <option value="$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/savvi/rangepickersample/SampleActivity.java" />
         <option value="$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/day_text_color.xml" />
+        <option value="$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/calendar_bg_selector.xml" />
+        <option value="$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java" />
       </list>
     </option>
   </component>
@@ -3829,10 +3849,10 @@
       <window_info id="Build Variants" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="right" id="Preview" visible="true" weight="0.32982844" />
+      <window_info anchor="right" id="Preview" weight="0.32982844" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" weight="0.329718" />
       <window_info anchor="bottom" id="Logcat" weight="0.329718" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" />
@@ -3843,7 +3863,7 @@
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -3859,7 +3879,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -3927,13 +3947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarCellView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/captures/com.savvi.rangepickersample_2018.11.02_23.45.li">
       <provider selected="true" editor-type-id="capture-editor">
         <state />
@@ -3991,16 +4004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/calendar_bg_selector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/state_deactivated.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -4015,17 +4018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/MonthView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-          <folding>
-            <element signature="e#7138#7139#0" expanded="true" />
-            <element signature="e#7176#7177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/MonthDescriptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -4034,13 +4026,6 @@
             <element signature="e#510#511#0" expanded="true" />
             <element signature="e#531#532#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="402" column="92" selection-start-line="402" selection-start-column="92" selection-end-line="402" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -4064,6 +4049,58 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/calendar_bg_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarCellView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/MonthView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="153" column="47" selection-start-line="153" selection-start-column="47" selection-end-line="153" selection-end-column="47" />
+          <folding>
+            <element signature="e#7138#7139#0" expanded="true" />
+            <element signature="e#7176#7177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/MonthCellDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+          <folding>
+            <element signature="e#1652#1653#0" expanded="true" />
+            <element signature="e#1679#1680#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="637" column="88" selection-start-line="637" selection-start-column="88" selection-end-line="637" selection-end-column="88" />
+          <folding>
+            <element signature="e#23138#23139#0" expanded="true" />
+            <element signature="e#23191#23192#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

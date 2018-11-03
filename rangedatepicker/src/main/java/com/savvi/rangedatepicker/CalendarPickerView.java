@@ -621,7 +621,7 @@ public class CalendarPickerView extends RecyclerView {
             for (MonthCellDescriptor singleCell : week) {
               if (singleCell.getDate().after(start)
                   && singleCell.getDate().before(end)
-                  && singleCell.isSelectable()) {
+                  && (singleCell.isSelectable() || !singleCell.isCurrentMonth())) {
                 if(highlightedCells.contains(singleCell)){
                   singleCell.setSelected(false);
                   singleCell.setUnavailable(true);
@@ -633,6 +633,14 @@ public class CalendarPickerView extends RecyclerView {
                   selectedCells.add(singleCell);
                 }
 
+              } else if (!singleCell.isCurrentMonth() && singleCell.getDate().equals(start)) {
+                singleCell.setRangeState(RangeState.FIRST);
+                singleCell.setSelected(true);
+                selectedCells.add(singleCell);
+              } else if (!singleCell.isCurrentMonth() && singleCell.getDate().equals(end)) {
+                singleCell.setRangeState(RangeState.LAST);
+                singleCell.setSelected(true);
+                selectedCells.add(singleCell);
               }
             }
           }
