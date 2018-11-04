@@ -18,31 +18,13 @@
     <list default="true" id="54481d79-3416-47e6-a9f3-bdc451c11845" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/savvi/rangepickersample/SampleActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/savvi/rangepickersample/SampleActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-01-01-28-06-718.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-01-01-28-06-718.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-11-02-18-34-17-105.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-11-02-18-34-17-105.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.v3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-de.txt-2.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-es.txt-2.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-hu.txt-2.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-it.txt-2.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-nb.txt-2.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-pt.txt-2.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-tr.txt-2.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project-cache/f1ed32b22a20a29436fdc55fd2076004b7a532cc/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project-cache/f1ed32b22a20a29436fdc55fd2076004b7a532cc/output" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalendarPickerView.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalendarPickerView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="927" selection-start-line="927" selection-end-line="927" />
+            <state relative-caret-position="223">
+              <caret line="553" column="44" selection-start-line="553" selection-start-column="44" selection-end-line="553" selection-end-column="44" />
               <folding>
                 <element signature="e#19056#19057#0" expanded="true" />
                 <element signature="e#19096#19097#0" expanded="true" />
@@ -103,18 +85,6 @@
             <state>
               <caret selection-end-line="16" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="week.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/res/layout/week.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="41" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
@@ -159,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SampleActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SampleActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/savvi/rangepickersample/SampleActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+            <state relative-caret-position="486">
+              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -3599,8 +3569,8 @@
         <option value="$PROJECT_DIR$/rangedatepicker/src/main/res/layout/week.xml" />
         <option value="$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarRowView.java" />
         <option value="$PROJECT_DIR$/rangedatepicker/src/main/res/drawable/state_selected.xml" />
-        <option value="$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/savvi/rangepickersample/SampleActivity.java" />
+        <option value="$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java" />
       </list>
     </option>
   </component>
@@ -3862,7 +3832,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" />
+      <window_info anchor="bottom" id="Android Profiler" order="12" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
@@ -3871,14 +3841,14 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Preview" order="3" weight="0.32982844" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
-      <window_info anchor="bottom" id="Logcat" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="10" visible="true" weight="0.329718" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.329718" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
@@ -3906,6 +3876,15 @@
         <watch expression="date.equals(maxCal.getTime())" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>date.equals(maxCal.getTime())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarCellView.java">
@@ -4211,21 +4190,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/savvi/rangepickersample/SampleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="927" selection-start-line="927" selection-end-line="927" />
+        <state relative-caret-position="486">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-25/android.jar!/java/util/Date.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
           <folding>
-            <element signature="e#19056#19057#0" expanded="true" />
-            <element signature="e#19096#19097#0" expanded="true" />
+            <element signature="e#3263#3264#0" expanded="true" />
+            <element signature="e#3314#3315#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/savvi/rangepickersample/SampleActivity.java">
+    <entry file="file://$PROJECT_DIR$/rangedatepicker/src/main/java/com/savvi/rangedatepicker/CalendarPickerView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        <state relative-caret-position="223">
+          <caret line="553" column="44" selection-start-line="553" selection-start-column="44" selection-end-line="553" selection-end-column="44" />
+          <folding>
+            <element signature="e#19056#19057#0" expanded="true" />
+            <element signature="e#19096#19097#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

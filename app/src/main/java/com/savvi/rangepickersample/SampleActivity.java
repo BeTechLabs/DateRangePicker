@@ -39,6 +39,7 @@ public class SampleActivity extends AppCompatActivity {
                 .inMode(CalendarPickerView.SelectionMode.RANGE);
 
         calendar.scrollToDate(new Date(), false);
+        calendar.selectDate(new Date(), false);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

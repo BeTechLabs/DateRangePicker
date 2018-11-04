@@ -544,17 +544,29 @@ public class CalendarPickerView extends RecyclerView {
 
 
   public boolean selectDate(Date date, boolean smoothScroll) {
-    validateDate(date);
+    Date _date = stripTime(date);
+    validateDate(_date);
 
-    MonthCellWithMonthIndex monthCellWithMonthIndex = getMonthCellWithIndexByDate(date);
-    if (monthCellWithMonthIndex == null || !isDateSelectable(date)) {
+    MonthCellWithMonthIndex monthCellWithMonthIndex = getMonthCellWithIndexByDate(_date);
+    if (monthCellWithMonthIndex == null || !isDateSelectable(_date)) {
       return false;
     }
-    boolean wasSelected = doSelectDate(date, monthCellWithMonthIndex.cell);
+    boolean wasSelected = doSelectDate(_date, monthCellWithMonthIndex.cell);
     if (wasSelected) {
       scrollToSelectedMonth(monthCellWithMonthIndex.monthIndex, smoothScroll);
     }
     return wasSelected;
+  }
+
+  private Date stripTime(Date date) {
+    Calendar calendar = Calendar.getInstance();
+    calendar.setTime(date);
+    calendar.set(Calendar.MILLISECOND, 0);
+    calendar.set(Calendar.SECOND, 0);
+    calendar.set(Calendar.MINUTE, 0);
+    calendar.set(Calendar.HOUR_OF_DAY, 0);
+
+    return calendar.getTime();
   }
 
   private void validateDate(Date date) {
