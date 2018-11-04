@@ -219,7 +219,7 @@ public class CalendarPickerView extends RecyclerView {
 
     // maxDate is exclusive: bump back to the previous day so if maxDate is the first of a month,
     // we don't accidentally include that month in the view.
-    maxCal.add(MILLISECOND, -1);
+    // maxCal.add(MILLISECOND, -1);
 
     // Now iterate between minCal and maxCal and build up our list of months to show.
     monthCounter.setTime(minCal.getTime());
@@ -926,7 +926,7 @@ public class CalendarPickerView extends RecyclerView {
   static boolean betweenDates(Date date, Calendar minCal, Calendar maxCal) {
     final Date min = minCal.getTime();
     return (date.equals(min) || date.after(min)) // >= minCal
-        && date.before(maxCal.getTime()); // && < maxCal
+        && (date.before(maxCal.getTime()) || date.equals(maxCal.getTime())); // && < maxCal
   }
 
   private static boolean sameMonth(Calendar cal, MonthDescriptor month) {

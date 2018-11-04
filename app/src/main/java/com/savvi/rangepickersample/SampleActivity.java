@@ -31,12 +31,14 @@ public class SampleActivity extends AppCompatActivity {
         nextYear.add(Calendar.MONTH, 10);
 
         final Calendar lastYear = Calendar.getInstance();
-        lastYear.add(Calendar.MONTH, -20);
+        lastYear.add(Calendar.DAY_OF_YEAR, -2);
 
         calendar = (CalendarPickerView) findViewById(R.id.calendar_view);
         button = (Button) findViewById(R.id.get_selected_dates);
-        calendar.init(lastYear.getTime(), nextYear.getTime(), new SimpleDateFormat("MMMM, YYYY", Locale.getDefault())) //
+        calendar.init(lastYear.getTime(), new Date(), new SimpleDateFormat("MMMM, YYYY", Locale.getDefault())) //
                 .inMode(CalendarPickerView.SelectionMode.RANGE);
+
+        calendar.scrollToDate(new Date(), false);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
