@@ -28,10 +28,10 @@ public class SampleActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sample);
 
         final Calendar nextYear = Calendar.getInstance();
-        nextYear.add(Calendar.YEAR, 10);
+        nextYear.add(Calendar.MONTH, 10);
 
         final Calendar lastYear = Calendar.getInstance();
-        lastYear.add(Calendar.YEAR, -10);
+        lastYear.add(Calendar.MONTH, -20);
 
         calendar = (CalendarPickerView) findViewById(R.id.calendar_view);
         button = (Button) findViewById(R.id.get_selected_dates);
