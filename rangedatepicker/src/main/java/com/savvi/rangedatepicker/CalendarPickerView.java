@@ -691,7 +691,7 @@ public class CalendarPickerView extends RecyclerView {
 
         if (selectionMode == SelectionMode.RANGE) {
           int index = selectedCells.indexOf(selectedCell);
-          if (index == 0 || index == selectedCells.size() - 1) {
+          if (index == 0 || index == 1) {
             dateListener.onDateUnselected(selectedDate);
           }
         } else {

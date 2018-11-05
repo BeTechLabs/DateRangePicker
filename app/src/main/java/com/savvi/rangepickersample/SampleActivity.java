@@ -41,6 +41,7 @@ public class SampleActivity extends AppCompatActivity {
         calendar.scrollToDate(new Date(), false);
         calendar.selectDate(new Date(), false);
 
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
